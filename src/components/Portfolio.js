@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Mock Project 1",
     description: `This is the page I developed myself full-stack. <br/>
     It used:
     `,
