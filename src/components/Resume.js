@@ -147,7 +147,7 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Working Experience list
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
