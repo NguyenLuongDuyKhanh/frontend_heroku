@@ -14,14 +14,12 @@ function App() {
     <React.Fragment>
       <CssBaseline />
       <Navbar />
-      <Router>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
-      </Router>
     </React.Fragment>
   );
 }
