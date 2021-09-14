@@ -19,6 +19,7 @@ import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.png";
+import TreeView from '@material-ui/lab/TreeView';
 
 import Footer from "../components/Footer";
 
@@ -99,7 +100,7 @@ const Navbar = () => {
           </Toolbar>
         </AppBar>
       </Box>
-      <Drawer open={open} anchor="right" onClose={() => setOpen(false)}>
+      <Drawer open={open} anchor="left" onClose={() => setOpen(false)}>
         {sideList()}
         <Footer />
       </Drawer>
